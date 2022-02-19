@@ -86,8 +86,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 		// 	$(this).find('.slick-slide:not(.slick-cloned):eq(' + currentslide + ')').find('.item-image').removeClass('trigger');
 		// 	$(this).find('.slick-slide:not(.slick-cloned):eq(' + currentslide + ')').find('span').removeClass('reveal-text');
 		// });
-		
-		
+
+
 		$('.product-slider-wrapper').slick({
 			slidesToShow: 3,
 			infinite: true,
@@ -148,6 +148,24 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 		}
 		smoothScroll();
 
+		//-----------------
+		//Button Scroll to TOP
+		//------------------
+		var btn = $('#buttonScrollToTop');
+
+		$(window).scroll(function() {
+		  if ($(window).scrollTop() > 300) {
+		    btn.addClass('show');
+		  } else {
+		    btn.removeClass('show');
+		  }
+		});
+
+		btn.on('click', function(e) {
+		  e.preventDefault();
+		  $('html, body').animate({scrollTop:0}, '300');
+		});
+
 		// google map
 		window.marker = null;
 		function initialize() {
@@ -158,7 +176,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 			var dataPositionLng = $('#map').attr('data-position-lng');
 			var center = new google.maps.LatLng(dataCenterLat, dataCenterLng);
 			var pinPosition = new google.maps.LatLng(dataPositionLat, dataPositionLng);
-			
+
 			var style = [
 				{
 					"featureType": "all",
