@@ -1716,7 +1716,7 @@ select.form-control:focus::-ms-value {
 .btn.disabled, .btn:disabled {
   opacity: .65; }
 
-.btn.active:not([disabled]):not(.disabled), .btn:not([disabled]):not(.disabled):active {
+.btn:not([disabled]):not(.disabled).active, .btn:not([disabled]):not(.disabled):active {
   background-image: none; }
 
 a.btn.disabled, fieldset[disabled] a.btn {
@@ -1739,7 +1739,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #007bff;
   border-color: #007bff; }
 
-.btn-primary.active:not([disabled]):not(.disabled), .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #0062cc;
   border-color: #005cbf;
@@ -1762,7 +1762,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #868e96;
   border-color: #868e96; }
 
-.btn-secondary.active:not([disabled]):not(.disabled), .btn-secondary:not([disabled]):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #6c757d;
   border-color: #666e76;
@@ -1785,7 +1785,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #28a745;
   border-color: #28a745; }
 
-.btn-success.active:not([disabled]):not(.disabled), .btn-success:not([disabled]):not(.disabled):active, .show > .btn-success.dropdown-toggle {
+.btn-success:not([disabled]):not(.disabled).active, .btn-success:not([disabled]):not(.disabled):active, .show > .btn-success.dropdown-toggle {
   color: #fff;
   background-color: #1e7e34;
   border-color: #1c7430;
@@ -1808,7 +1808,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #17a2b8;
   border-color: #17a2b8; }
 
-.btn-info.active:not([disabled]):not(.disabled), .btn-info:not([disabled]):not(.disabled):active, .show > .btn-info.dropdown-toggle {
+.btn-info:not([disabled]):not(.disabled).active, .btn-info:not([disabled]):not(.disabled):active, .show > .btn-info.dropdown-toggle {
   color: #fff;
   background-color: #117a8b;
   border-color: #10707f;
@@ -1831,7 +1831,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #ffc107;
   border-color: #ffc107; }
 
-.btn-warning.active:not([disabled]):not(.disabled), .btn-warning:not([disabled]):not(.disabled):active, .show > .btn-warning.dropdown-toggle {
+.btn-warning:not([disabled]):not(.disabled).active, .btn-warning:not([disabled]):not(.disabled):active, .show > .btn-warning.dropdown-toggle {
   color: #111;
   background-color: #d39e00;
   border-color: #c69500;
@@ -1854,7 +1854,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #dc3545;
   border-color: #dc3545; }
 
-.btn-danger.active:not([disabled]):not(.disabled), .btn-danger:not([disabled]):not(.disabled):active, .show > .btn-danger.dropdown-toggle {
+.btn-danger:not([disabled]):not(.disabled).active, .btn-danger:not([disabled]):not(.disabled):active, .show > .btn-danger.dropdown-toggle {
   color: #fff;
   background-color: #bd2130;
   border-color: #b21f2d;
@@ -1877,7 +1877,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #f8f9fa;
   border-color: #f8f9fa; }
 
-.btn-light.active:not([disabled]):not(.disabled), .btn-light:not([disabled]):not(.disabled):active, .show > .btn-light.dropdown-toggle {
+.btn-light:not([disabled]):not(.disabled).active, .btn-light:not([disabled]):not(.disabled):active, .show > .btn-light.dropdown-toggle {
   color: #111;
   background-color: #dae0e5;
   border-color: #d3d9df;
@@ -1900,7 +1900,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #343a40;
   border-color: #343a40; }
 
-.btn-dark.active:not([disabled]):not(.disabled), .btn-dark:not([disabled]):not(.disabled):active, .show > .btn-dark.dropdown-toggle {
+.btn-dark:not([disabled]):not(.disabled).active, .btn-dark:not([disabled]):not(.disabled):active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
   background-color: #1d2124;
   border-color: #171a1d;
@@ -1924,7 +1924,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #007bff;
   background-color: transparent; }
 
-.btn-outline-primary.active:not([disabled]):not(.disabled), .btn-outline-primary:not([disabled]):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+.btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
@@ -1948,7 +1948,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #868e96;
   background-color: transparent; }
 
-.btn-outline-secondary.active:not([disabled]):not(.disabled), .btn-outline-secondary:not([disabled]):not(.disabled):active, .show > .btn-outline-secondary.dropdown-toggle {
+.btn-outline-secondary:not([disabled]):not(.disabled).active, .btn-outline-secondary:not([disabled]):not(.disabled):active, .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
   background-color: #868e96;
   border-color: #868e96;
@@ -1972,7 +1972,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #28a745;
   background-color: transparent; }
 
-.btn-outline-success.active:not([disabled]):not(.disabled), .btn-outline-success:not([disabled]):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+.btn-outline-success:not([disabled]):not(.disabled).active, .btn-outline-success:not([disabled]):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
@@ -1996,7 +1996,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #17a2b8;
   background-color: transparent; }
 
-.btn-outline-info.active:not([disabled]):not(.disabled), .btn-outline-info:not([disabled]):not(.disabled):active, .show > .btn-outline-info.dropdown-toggle {
+.btn-outline-info:not([disabled]):not(.disabled).active, .btn-outline-info:not([disabled]):not(.disabled):active, .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
   background-color: #17a2b8;
   border-color: #17a2b8;
@@ -2020,7 +2020,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #ffc107;
   background-color: transparent; }
 
-.btn-outline-warning.active:not([disabled]):not(.disabled), .btn-outline-warning:not([disabled]):not(.disabled):active, .show > .btn-outline-warning.dropdown-toggle {
+.btn-outline-warning:not([disabled]):not(.disabled).active, .btn-outline-warning:not([disabled]):not(.disabled):active, .show > .btn-outline-warning.dropdown-toggle {
   color: #fff;
   background-color: #ffc107;
   border-color: #ffc107;
@@ -2044,7 +2044,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #dc3545;
   background-color: transparent; }
 
-.btn-outline-danger.active:not([disabled]):not(.disabled), .btn-outline-danger:not([disabled]):not(.disabled):active, .show > .btn-outline-danger.dropdown-toggle {
+.btn-outline-danger:not([disabled]):not(.disabled).active, .btn-outline-danger:not([disabled]):not(.disabled):active, .show > .btn-outline-danger.dropdown-toggle {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
@@ -2068,7 +2068,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #f8f9fa;
   background-color: transparent; }
 
-.btn-outline-light.active:not([disabled]):not(.disabled), .btn-outline-light:not([disabled]):not(.disabled):active, .show > .btn-outline-light.dropdown-toggle {
+.btn-outline-light:not([disabled]):not(.disabled).active, .btn-outline-light:not([disabled]):not(.disabled):active, .show > .btn-outline-light.dropdown-toggle {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
@@ -2092,7 +2092,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #343a40;
   background-color: transparent; }
 
-.btn-outline-dark.active:not([disabled]):not(.disabled), .btn-outline-dark:not([disabled]):not(.disabled):active, .show > .btn-outline-dark.dropdown-toggle {
+.btn-outline-dark:not([disabled]):not(.disabled).active, .btn-outline-dark:not([disabled]):not(.disabled):active, .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
@@ -2135,7 +2135,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-block + .btn-block {
   margin-top: .5rem; }
 
-input.btn-block[type=button], input.btn-block[type=reset], input.btn-block[type=submit] {
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
   width: 100%; }
 
 .fade {

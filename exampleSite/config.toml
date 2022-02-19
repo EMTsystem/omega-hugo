@@ -1,6 +1,6 @@
 baseURL = "https://exampleemtsys.netlify.app"
 googleAnalytics = ""
-theme = "omega"
+theme = "omega-hugo"
 title = "OMEGA"
 [markup.goldmark.renderer]
 unsafe = true
