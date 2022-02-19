@@ -40,7 +40,7 @@ preloader = true
 enable = true
 expire_days = 2
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"
 map_center_lat = "25.773606"
 map_center_lng = "-80.732655"
