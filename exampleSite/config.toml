@@ -1,4 +1,4 @@
-baseURL = "https://exampleEMTsys.netlify.app"
+baseURL = "https://exampleemtsys.netlify.app"
 googleAnalytics = ""
 theme = "omega"
 title = "OMEGA"
